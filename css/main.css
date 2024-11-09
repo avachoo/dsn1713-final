@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+:root {
+    --primary: #4d90ad;
+    --secondary: #b6b6b6;
+    --accent: #aeced9;
+    --banner: #c6e3e7;
+  }
+
+  nav {
+    background-color: var(--primary);
+    font-family: "Cabin";
+  }
+
+  #hero {
+    height: 600px;
+    background-color: var(--banner);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: "Cabin";
+    color: white;
+  }
+
+  .custom-btn-1 {
+    background-color: var(--primary);
+    color: white;
+  }
+
+  .custom-btn-1:hover, .custom-btn-1:focus {
+    background-color: white;
+    color: var(--primary);
+
+  }
+
+ 
