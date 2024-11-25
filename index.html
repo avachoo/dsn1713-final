@@ -1,3 +1,5 @@
+<!-- fix column layouts displaying 2-3 divs horizontally in desktop view.
+     add nav interactivity-->
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -21,13 +23,13 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav container-lg justify-content-start">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Products</a>
+                <a class="nav-link" href="products">Products</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="contact">Contact Us</a>
               </li>
             </ul>
             <a class="cart-icon" href="#">
@@ -40,6 +42,9 @@
             </form>
           </div>
         </div>
+        <a href="#home" class="nav-item" data-target="hero">Section 1</a>
+        <a href="#products" class="nav-item" data-target="section-3">Section 2</a>
+        <a href="#contact" class="nav-item" data-target="section-6">Section 3</a>
       </nav>
     </header>
 
@@ -226,6 +231,81 @@
                        </div>
                       </div>
           </section>
+
+          <section id="section-6">
+            <div class="container-lg">
+              <div class="row text-center">
+                <div class="col-12 mt-4 mb-2">
+                <h2 class="section-6-h2">Contact Us</h2>
+                </div>
+
+              
+
+              <div>
+                <img src="images/map-illustration.jpg" class="img-fluid">
+              </div>
+
+              <div class="col-lg-3">
+              <div class="contact-icons ms-4">
+              <div style="display: flex;" class="mb-4">
+                <img src="images/phone-icon.svg" width="40px" height="auto" class="me-3"> 
+                <p>613-123-4567</p>
+              </div>
+
+              <div style="display: flex;" class="mb-4"v>
+                <img src="images/email-icon.svg" width="40px" height="auto" class="me-3"> 
+                <p>neutrogena@gmail.com</p>
+              </div>
+
+              <div style="display: flex;" class="mb-4">
+                <img src="images/location-pin-icon.svg" width="40px" height="auto" class="me-3"> 
+                <p>123 Summer Lane, K23 0L8, NJ</p>
+              </div>
+            </div>
+            </div>
+
+            </div>
+
+          </section>
+
+          <section id="section-7">
+            <div class="container-lg">
+
+              <div class="row text-center">
+                <div class="col-12 mt-4 mb-3">
+                <h2 class="section-5-h2">Write a Review/Complaint</h2>
+                </div>
+
+              <div class="row">
+              <div class="sample-product-1 order-lg-1 col-lg-6">
+                <div class="sample-product-1-bg mb-4">
+                  <div class="row text-center">
+                    <div class="col-12 mt-4">
+                    <h2>Sam Thomas</h2>
+                    <img src="images/account-icon.svg" width="100px" class="rounded-circle">
+                    <p class="p-3">
+                      I've been using the Neutrogena Hydro Boost Water Gel for about a month now, and I can confidently say it's a game-changer for my dry skin. The texture is lightweight and absorbs quickly without leaving a greasy feeling. It works beautifully under makeup, and my skin feels hydrated all day.                    </div>
+
+                 
+
+                      </div>
+                  </div>
+
+                  <div class="sample-product-2 order-lg-2 col-lg-6">
+                    <div class="sample-product-2-bg mb-4">
+                      <div class="row text-center">
+                        <div class="col-12 mt-4">
+                        <h2>Melissa James</h2>
+                        <img src="images/account-icon.svg" width="100px" class="rounded-circle">
+                        <p class="p-3">
+                          I wear it daily, whether I’m outdoors or just running errands, and it doesn’t clog my pores or cause breakouts, which is a big win for my sensitive skin. Plus, it gives me peace of mind knowing I’m protected from harmful UV rays. Definitely a staple in my skincare routine!                        </div>
+                       </div>
+                      </div>
+
+            </div>
+          </section>
+
+        
     
           <!-- last div is not taking up 4 cols on grid -->
           <footer> 
@@ -254,7 +334,6 @@
               
 
               <div class="ms-1 pb-4">
-                <a href="#"><img src="images/email-logo-icon.svg" alt="email logo" width="35" height="auto"></a>
                 <a href="#"><img src="images/facebook-logo-icon.svg" alt="Facebook logo" width="35" height="auto"></a>
                 <a href="#"><img src="images/instagram-logo-icon.svg" alt="Instagram logo" width="35" height="auto"></a>
               </div>
